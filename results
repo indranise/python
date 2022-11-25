@@ -1,0 +1,13 @@
+sno=int(input("enter student no:"))
+name=input("enter student name:")
+group=input("enter group:")
+S1=int(input("enter subject 1"))
+S2=int(input("enter subject 2"))
+S3=int(input("enter subject 3"))
+if (S1>35 and S2>=35 and S3>35):
+    print("all are pass")
+else:
+    print("fail")
+print("sno:",sno)
+print("name:",name)
+print("group:",group)
